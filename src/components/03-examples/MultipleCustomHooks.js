@@ -5,10 +5,9 @@ import './MultipleCustomHooks.css'
 
 export const MultipleCustomHooks = () => {
 
-    const {counter, increment} = useCounter(1);
-    const { data, loading, error} = useFetch(`https://www.breakingbadapi.com/api/quotes/${ counter }`);
-    const {author, quote} = !!data && data[0];
-
+    const { counter, increment } = useCounter(1);
+    const { data, loading, error } = useFetch(`https://www.breakingbadapi.com/api/quotes/${ counter }`);
+    const { author, quote } = !!data && data[0];
 
     return (
         <div>

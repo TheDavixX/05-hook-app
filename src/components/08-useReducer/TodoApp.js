@@ -35,7 +35,6 @@ export const TodoApp = () => {
 
     const handleToggle = ( todoId ) => {
 
-        console.log('jola')
         dispatch({
             type: 'toggle',
             payload: todoId

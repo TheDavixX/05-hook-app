@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginScreen /> debe mostrarse correctamente 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        aria-current={null}
+        className="navbar-brand"
+        href="/home"
+        onClick={[Function]}
+      >
+        useContext
+      </a>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarNavAltMarkup"
+      >
+        <div
+          className="navbar-nav"
+        >
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/home"
+            onClick={[Function]}
+          >
+             Home 
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/about"
+            onClick={[Function]}
+          >
+             About 
+          </a>
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            href="/login"
+            onClick={[Function]}
+          >
+             Login 
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    Array [
+      <h1>
+        Home Screen
+      </h1>,
+      <hr />,
+      <pre>
+        {
+   "name": "David",
+   "email": "davidestevez1000@gmail.com"
+}
+      </pre>,
+    ]
+  </div>
+</div>
+`;

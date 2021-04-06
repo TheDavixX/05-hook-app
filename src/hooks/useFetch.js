@@ -23,6 +23,13 @@ export const useFetch = ( url ) => {
                         data
                     });
                 }  
+            })
+            .catch( () => {
+                setstate({
+                    data: null,
+                    loading: false,
+                    error: 'Se ha recivido un error',
+                });
             });
     },[ url ]);
 

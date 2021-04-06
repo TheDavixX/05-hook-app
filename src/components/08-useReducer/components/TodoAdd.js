@@ -5,7 +5,7 @@ import { useForm } from '../../../hooks/useForm';
 
 export const TodoAdd = ({ handleAddTodo }) => {
 
-    const [ {description}, handleInputChange, reset] = useForm({
+    const [{ description }, handleInputChange, reset] = useForm({
         description: ''
     });
     
@@ -19,7 +19,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
         const newTodo = {
             id: new Date().getTime(),
             desc: description,
-            donde: false,
+            done: false,
         }
     
         handleAddTodo( newTodo );
